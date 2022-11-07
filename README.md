@@ -1,6 +1,6 @@
 # Resto-management-system
 
-Project tim 3 di praktikum PBO, 
+Project tim 4 di praktikum PBO, 
 
 nama anggota tim :
 1. Muhammad Akbarul Ihsan
