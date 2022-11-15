@@ -1,13 +1,17 @@
+package Databases;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import Classes.Menu;
+
 public class DataMenu  {
 public static String[] data = new String[3];
 
-static String filepath = "D:\\AlGoritma\\menu.txt";
+static String filepath = "src/main/java/Databases/menu.txt";
 
 public DataMenu(){
 }
