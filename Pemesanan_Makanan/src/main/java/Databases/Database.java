@@ -3,17 +3,16 @@ package Databases;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Scanner;
+
 
 import Classes.Menu;
 
-public class DataMenu  {
+public class Database  {
 public static String[] data = new String[3];
 
 static String filepath = "src/main/java/Databases/menu.txt";
 
-public DataMenu(){
+public Database(){
 }
 
 private String[] DataMenu() {
@@ -49,18 +48,4 @@ public Menu[] buatObjekMenu() {
     return menu;
 }
 
-public static void main(String[] args) {
-    DataMenu PCT = new DataMenu();
-    Menu[] namamenu = new Menu[20];
-
-    PCT.DataMenu();
-    namamenu = PCT.buatObjekMenu();
-    
-    for(int i=0;i<3;i++){
-        System.out.println(namamenu[i].getNama());
-        System.out.println(namamenu[i].getHarga());
-        System.out.println(namamenu[i].getRating());
-        System.out.println(namamenu[i].getJenis());
-    }
-}
 }
