@@ -1,3 +1,0 @@
-ayam,10000,100,brunch
-bebek,5000,10,brunch
-capcin,3000,6,smoothie
